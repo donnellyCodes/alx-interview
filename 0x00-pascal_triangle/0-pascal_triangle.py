@@ -6,6 +6,7 @@ def pascal_triangle(n):
     # initialize first row with 1
     triangle = [[1]]
     
+    
     # loop to generate each row of the triangle
     for i in range(1, n):
         # start each row with 1
