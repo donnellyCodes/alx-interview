@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-def pascal_triangle(n):
-    """
+"""
     Generates a Pascal's triangle of size n.
-    """
+"""
+def pascal_triangle(n):
     # if n is less than or equal to 0, return empty list
     if n <= 0:
         return []
