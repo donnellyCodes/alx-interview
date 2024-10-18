@@ -17,7 +17,7 @@ def pascal_triangle(n):
         for j in range(i+1):
             if j == 0 or j == i:
                 line.append(1)
-            elif i > 0 and j < 0:
+            elif i > 0 and j > 0:
                 line.append(triangle[i-1][j-1] + triangle[i-1][j])
         triangle.append(line);
     return triangle
